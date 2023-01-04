@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/VaadinUiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/VaadinUiApplicationTests.java" afterDir="false" />
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="redesigning the project for a multi-module project">
+      <change afterPath="$PROJECT_DIR$/serverRest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/ServerRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/ServerRestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/serverRest" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -80,7 +75,8 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "E:/Android/java/imageUI2",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "8e99896397344c6528ba1b2205f5f977"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,28 +95,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
-    <configuration name="ServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.server.ServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.server.ServerApplication" />
+  <component name="RunManager" selected="Spring Boot.VaadinUiApplication">
+    <configuration name="ServerRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="serverRest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.serverrest.ServerRestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="VaadinUiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="vaadinUI" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.vaadinui.VaadinUiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServerRestApplication" />
+      <item itemvalue="Spring Boot.VaadinUiApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,8 +124,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672856881312</updated>
-      <workItem from="1672856882878" duration="4263000" />
+      <workItem from="1672856882878" duration="5025000" />
+      <workItem from="1672863279253" duration="441000" />
     </task>
+    <task id="LOCAL-00001" summary="redesigning the project for a multi-module project">
+      <created>1672862550334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672862550334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redesigning the project for a multi-module project" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesigning the project for a multi-module project" />
   </component>
 </project>

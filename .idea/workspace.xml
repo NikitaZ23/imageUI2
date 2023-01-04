@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="redesigning the project for a multi-module project">
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/serverRest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vaadinUI" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -112,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672856881312</updated>
       <workItem from="1672856882878" duration="5025000" />
-      <workItem from="1672863279253" duration="1596000" />
+      <workItem from="1672863279253" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="redesigning the project for a multi-module project">
       <created>1672862550334</created>
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672864059842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="...">
+      <created>1672864970355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672864970355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redesigning the project for a multi-module project" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesigning the project for a multi-module project" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>

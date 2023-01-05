@@ -4,8 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="...">
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="check git">
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/common/ImageFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/common/ImaggaVision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/common/ParseJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/config/AuditorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/IWTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/domain/ImWithTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/domain/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/domain/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/ImWithTagsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/ImageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/TagDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/request/CreateIWTRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/request/CreateImageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/request/CreateTagRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/IWTNotFoundExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/IWTNotFoundRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/ImageNotFoundExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/ImageNotFoundRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/TagExistsExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/TagExistsRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/TagNotFoundExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/exceptions/TagNotFoundRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/mapper/ImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/mapper/ImageWithTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/repository/ImWithTagsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/repository/ImagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/repository/TagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/ImWithTagsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImWithTagsServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImageServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/TagServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/configuration/ConfigurationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/IWTControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/ImageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/TagControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/service/IWTServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/service/ImageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/service/TagServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/WebService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,16 +67,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vaadinUI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/serverRest" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -62,18 +112,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Android/java/imageUI2/serverRest/src/main/resources/db/changelog",
+    "last_opened_file_path": "E:/Android/java/imageUI2/serverRest/src/test/java/com/example/serverrest",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "8e99896397344c6528ba1b2205f5f977"
+    "spring.configuration.checksum": "778db0d0f37b7d658232261d60078f40"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\java\imageUI2\serverRest\src\test\java\com\example\serverrest" />
+      <recent name="E:\Android\java\imageUI2\serverRest\src\main\java\com\example\serverrest" />
+      <recent name="E:\Android\java\imageUI2\serverRest\src\main\java\com\example\serverrest\controller" />
       <recent name="E:\Android\java\imageUI2\serverRest\src\main\resources\db\changelog" />
       <recent name="E:\Android\java\imageUI2\serverRest" />
-      <recent name="E:\Android\java\imageUI2\serverRest\src\test\resources" />
-      <recent name="E:\Android\java\imageUI2" />
-      <recent name="E:\Android\java\imageUI2\server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.serverrest.configuration" />
+      <recent name="com.example.serverrest.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672856881312</updated>
       <workItem from="1672856882878" duration="5025000" />
-      <workItem from="1672863279253" duration="2251000" />
+      <workItem from="1672863279253" duration="2607000" />
+      <workItem from="1672908181446" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="redesigning the project for a multi-module project">
       <created>1672862550334</created>
@@ -136,7 +191,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672864970355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add resttemplate">
+      <created>1672865588472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672865588472</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add front">
+      <created>1672865699098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672865699098</updated>
+    </task>
+    <task id="LOCAL-00006" summary="check git">
+      <created>1672865817037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672865817037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +244,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redesigning the project for a multi-module project" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="add resttemplate" />
+    <MESSAGE value="add front" />
+    <MESSAGE value="check git" />
+    <option name="LAST_COMMIT_MESSAGE" value="check git" />
   </component>
 </project>

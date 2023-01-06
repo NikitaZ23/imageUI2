@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="added methods to the server controllers, redesigned the service a bit.&#10;added dto to the client, added a couple more common classes and made a service for requests to the server.&#10;Eventually. I need to add a classter of methods on the client responsible for adding tags to pictures&#10;A plus. Check the tests on the server and probably add them to the client and optimize the code">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="the working part is ready. start optimization">
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/IWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/IWTServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/ImageServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/TagServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/IWTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/IWTController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/request/FindIWTRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/dto/request/FindIWTRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/ImWithTagsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/ImWithTagsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImWithTagsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImWithTagsServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/service/Imp/ImageServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/WebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/WebService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/serverRest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vaadinUI" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -92,6 +96,7 @@
       <recent name="E:\Android\java\imageUI2\serverRest\src\main\resources\db\changelog" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.vaadinui.service" />
       <recent name="com.example.vaadinui.common" />
       <recent name="com.example.vaadinui.web" />
       <recent name="com.example.serverrest.configuration" />
@@ -186,7 +191,7 @@
       <workItem from="1672856882878" duration="5025000" />
       <workItem from="1672863279253" duration="2607000" />
       <workItem from="1672908181446" duration="28119000" />
-      <workItem from="1672996038793" duration="3350000" />
+      <workItem from="1672996038793" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="redesigning the project for a multi-module project">
       <created>1672862550334</created>
@@ -244,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672953249859</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="the working part is ready. start optimization">
+      <created>1673003895238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673003895238</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +293,7 @@
     <MESSAGE value="check git" />
     <MESSAGE value="I'm putting together a project. I check the work of the resttemplate" />
     <MESSAGE value="added methods to the server controllers, redesigned the service a bit.&#10;added dto to the client, added a couple more common classes and made a service for requests to the server.&#10;Eventually. I need to add a classter of methods on the client responsible for adding tags to pictures&#10;A plus. Check the tests on the server and probably add them to the client and optimize the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added methods to the server controllers, redesigned the service a bit.&#10;added dto to the client, added a couple more common classes and made a service for requests to the server.&#10;Eventually. I need to add a classter of methods on the client responsible for adding tags to pictures&#10;A plus. Check the tests on the server and probably add them to the client and optimize the code" />
+    <MESSAGE value="the working part is ready. start optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="the working part is ready. start optimization" />
   </component>
 </project>

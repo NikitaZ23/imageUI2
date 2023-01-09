@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="remade a few controllers and services">
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="create tests for vaadin">
+      <change afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/configuration/ConfigurationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/IWTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/IWTController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/main/java/com/example/serverrest/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/IWTControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/IWTControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/ImageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/TagControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/controllers/TagControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/service/IWTServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverRest/src/test/java/com/example/serverrest/service/IWTServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/WebService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/ImageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/ImageServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/IWTServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/IWTServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/ImageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/ImageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/TagServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Android/java/IdeaProjects/Notes",
+    "last_opened_file_path": "/home/codeinside/IdeaProjects/imageUI2/vaadinUI/src/test/java/com/example/vaadinui",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -74,16 +78,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui" />
       <recent name="E:\Android\java\imageUI2\vaadinUI\src\main\java\com\example\vaadinui\dto" />
       <recent name="E:\Android\java\imageUI2\serverRest\src\test\java\com\example\serverrest" />
       <recent name="E:\Android\java\imageUI2\serverRest\src\main\java\com\example\serverrest" />
       <recent name="E:\Android\java\imageUI2\serverRest\src\main\java\com\example\serverrest\controller" />
-      <recent name="E:\Android\java\imageUI2\serverRest\src\main\resources\db\changelog" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.example.vaadinui.service.imp.IWTServiceImp" />
       <recent name="com.example.vaadinui.service.imp.ImageServiceImp" />
       <recent name="com.example.vaadinui.service.imp.TagServiceImp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.vaadinui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.vaadinui.service" />
@@ -100,73 +107,79 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in serverRest">
-    <configuration name="All in serverRest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serverRest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IWTControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serverRest" />
+  <component name="RunManager" selected="JUnit.IWTServiceTest">
+    <configuration name="IWTServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vaadinUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.serverrest.controllers.*" />
+          <option name="PATTERN" value="com.example.vaadinui.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.serverrest.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.serverrest.controllers.IWTControllerTest" />
+      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.IWTServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IWTControllerTest.getIWTId_ImTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serverRest" />
+    <configuration name="ImageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vaadinUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.serverrest.controllers.*" />
+          <option name="PATTERN" value="com.example.vaadinui.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.serverrest.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.serverrest.controllers.IWTControllerTest" />
-      <option name="METHOD_NAME" value="getIWTId_ImTest" />
+      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.ImageServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vaadinUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.vaadinui.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.TagServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagServiceTest.getTagNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vaadinUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.vaadinui.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.TagServiceTest" />
+      <option name="METHOD_NAME" value="getTagNameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IWTControllerTest.getIWTOneObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serverRest" />
+    <configuration name="TagServiceTest.getTagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vaadinUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.serverrest.controllers.*" />
+          <option name="PATTERN" value="com.example.vaadinui.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.serverrest.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.serverrest.controllers.IWTControllerTest" />
-      <option name="METHOD_NAME" value="getIWTOneObjectTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageControllerTest.createImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serverRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.serverrest.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.serverrest.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.serverrest.controllers.ImageControllerTest" />
-      <option name="METHOD_NAME" value="createImageTest" />
+      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.TagServiceTest" />
+      <option name="METHOD_NAME" value="getTagTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IWTControllerTest" />
-      <item itemvalue="JUnit.IWTControllerTest.getIWTId_ImTest" />
-      <item itemvalue="JUnit.IWTControllerTest.getIWTOneObjectTest" />
-      <item itemvalue="JUnit.All in serverRest" />
-      <item itemvalue="JUnit.ImageControllerTest.createImageTest" />
+      <item itemvalue="JUnit.IWTServiceTest" />
+      <item itemvalue="JUnit.ImageServiceTest" />
+      <item itemvalue="JUnit.TagServiceTest (1)" />
+      <item itemvalue="JUnit.TagServiceTest.getTagNameTest" />
+      <item itemvalue="JUnit.TagServiceTest.getTagTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in serverRest" />
-        <item itemvalue="JUnit.IWTControllerTest.getIWTOneObjectTest" />
-        <item itemvalue="JUnit.IWTControllerTest" />
-        <item itemvalue="JUnit.IWTControllerTest.getIWTId_ImTest" />
-        <item itemvalue="JUnit.ImageControllerTest.createImageTest" />
+        <item itemvalue="JUnit.IWTServiceTest" />
+        <item itemvalue="JUnit.ImageServiceTest" />
+        <item itemvalue="JUnit.TagServiceTest (1)" />
+        <item itemvalue="JUnit.TagServiceTest.getTagNameTest" />
+        <item itemvalue="JUnit.TagServiceTest.getTagTest" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673252429477</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="made tests for the server">
+      <created>1673258748746</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673258748746</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create tests for vaadin">
+      <created>1673259048063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673259048063</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +361,9 @@
     <MESSAGE value="the working part is ready. start optimization" />
     <MESSAGE value="made services for the client. seem to work. Couldn't test all the methods because the imaaga fell off." />
     <MESSAGE value="remade a few controllers and services" />
-    <option name="LAST_COMMIT_MESSAGE" value="remade a few controllers and services" />
+    <MESSAGE value="made tests for the server" />
+    <MESSAGE value="create tests fo vaadin" />
+    <MESSAGE value="create tests for vaadin" />
+    <option name="LAST_COMMIT_MESSAGE" value="create tests for vaadin" />
   </component>
 </project>

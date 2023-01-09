@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="create tests for vaadin">
-      <change afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/configuration/ConfigurationTests.java" afterDir="false" />
+    <list default="true" id="73f51f5b-73b6-413f-add7-f7764a00a69b" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/WebService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/ImageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/service/imp/ImageServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/FullTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/main/java/com/example/vaadinui/web/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/IWTServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/IWTServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/ImageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/ImageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaadinUI/src/test/java/com/example/vaadinui/service/TagServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/serverRest" />
   </component>
   <component name="JpbToolWindowState">
@@ -93,11 +90,11 @@
       <recent name="com.example.vaadinui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.example.vaadinui.service" />
       <recent name="com.example.vaadinui.common" />
       <recent name="com.example.vaadinui.web" />
       <recent name="com.example.serverrest.configuration" />
-      <recent name="com.example.serverrest.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +104,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IWTServiceTest">
+  <component name="RunManager" selected="Application.VaadinUiApplication">
+    <configuration name="ServerRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.serverrest.ServerRestApplication" />
+      <module name="serverRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.serverrest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VaadinUiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.VaadinUiApplication" />
+      <module name="vaadinUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.vaadinui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IWTServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vaadinUI" />
       <extension name="coverage">
@@ -153,38 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagServiceTest.getTagNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vaadinUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.vaadinui.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.TagServiceTest" />
-      <option name="METHOD_NAME" value="getTagNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TagServiceTest.getTagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vaadinUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.vaadinui.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.vaadinui.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.vaadinui.service.TagServiceTest" />
-      <option name="METHOD_NAME" value="getTagTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServerRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="serverRest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.serverrest.ServerRestApplication" />
@@ -201,19 +192,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ServerRestApplication" />
+      <item itemvalue="Application.VaadinUiApplication" />
       <item itemvalue="JUnit.IWTServiceTest" />
       <item itemvalue="JUnit.ImageServiceTest" />
       <item itemvalue="JUnit.TagServiceTest (1)" />
-      <item itemvalue="JUnit.TagServiceTest.getTagNameTest" />
-      <item itemvalue="JUnit.TagServiceTest.getTagTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VaadinUiApplication" />
+        <item itemvalue="Application.ServerRestApplication" />
         <item itemvalue="JUnit.IWTServiceTest" />
         <item itemvalue="JUnit.ImageServiceTest" />
         <item itemvalue="JUnit.TagServiceTest (1)" />
-        <item itemvalue="JUnit.TagServiceTest.getTagNameTest" />
-        <item itemvalue="JUnit.TagServiceTest.getTagTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673259048063</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="done">
+      <created>1673266384237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673266384237</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +362,7 @@
     <MESSAGE value="made tests for the server" />
     <MESSAGE value="create tests fo vaadin" />
     <MESSAGE value="create tests for vaadin" />
-    <option name="LAST_COMMIT_MESSAGE" value="create tests for vaadin" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
